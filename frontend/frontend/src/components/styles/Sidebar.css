@@ -1,0 +1,15 @@
+#sidebar {
+  width: 400px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selected {
+  background-color:#CBCBCB;
+}
+

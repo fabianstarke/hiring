@@ -30,7 +30,7 @@ app.get("/api/cities", async (req, res) => {
   if (search !== null && search !== "") {
     cities = cities.filter((city) => city.name.includes(search));
   }
-  cities = cities.slice(from, from + limit);
+  cities = cities.slice(from, limit);
 
   res.json(cities);
 });
